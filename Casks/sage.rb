@@ -1,6 +1,6 @@
 cask "sage" do
-  version "0.1.1"
-  sha256 "4956787a469d46c8f549756f6e97bc4a4068d4b09c1a5fe9b5c61fe03359a711"
+  version "0.1.2"
+  sha256 "cbdf7fe874bdb8f2b6f890676532b0d085d5318c7f9207f7ab2e884c1f32cc61"
 
   url "https://github.com/thedevdavid/sage/releases/download/v#{version}/sage.app.zip"
   name "sage"
