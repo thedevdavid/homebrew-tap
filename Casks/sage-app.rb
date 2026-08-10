@@ -1,4 +1,4 @@
-cask "sage" do
+cask "sage-app" do
   version "0.2.0"
   sha256 "22707f8b094bd4f376a7398c403e992387412be75d6ea06de9c1a92b2b02de62"
 
