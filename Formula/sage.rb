@@ -8,7 +8,7 @@ class Sage < Formula
   depends_on "node"
 
   def install
-    libexec.install "cli/bin", "cli/src", "cli/skill", "cli/package.json"
+    libexec.install "cli/bin", "cli/src", "skills", "cli/package.json"
     (bin/"sage").write <<~SH
       #!/bin/bash
       exec "#{formula_opt_bin("node")}/node" "#{libexec}/bin/sage.js" "$@"
