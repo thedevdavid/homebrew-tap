@@ -1,8 +1,8 @@
 class Sage < Formula
   desc "Local-only LLM usage tracker (API keys + subscriptions)"
   homepage "https://github.com/thedevdavid/sage"
-  url "https://github.com/thedevdavid/sage/archive/refs/tags/v0.1.8.tar.gz"
-  sha256 "a4605e6b9b9384940bc6ae8004222670331367766b147c007564d0cf2c9f864d"
+  url "https://github.com/thedevdavid/sage/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "a0193a0ac26a755ae3549a6580afc721f273227a4c6884ec392b64a4e51ad772"
   license "MIT"
 
   depends_on "node"
