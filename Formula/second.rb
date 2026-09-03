@@ -10,22 +10,22 @@ class Second < Formula
   on_macos do
     on_arm do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-darwin-arm64.tar.gz"
-      sha256 "c93f27733275f1ff4d5bb9678e423194240681ae518433538715126257b6ec68"
+      sha256 "2e39e1d8e5cbedd7b4d98f2ea83483ab32eff1084b706f98b42d1cec42a85c72"
     end
     on_intel do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-darwin-x64.tar.gz"
-      sha256 "8458c80bfc5bd73d5933580cbc9226f74e5dd02d5dbab8f0f7593ddd211fa075"
+      sha256 "eaf900b816ec17b6edb4fe091ff7baec909eb403e287837f5738bb32de6999c5"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-linux-arm64.tar.gz"
-      sha256 "3d0489f4da57f019facf17769173e5ab17e565e02bcc4b930a8102146cf667c3"
+      sha256 "e028cb873d2c489b180887d6709aec4d7d55e646ac541c653f08b15f264dce4f"
     end
     on_intel do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-linux-x64.tar.gz"
-      sha256 "12aa44cd8cd332f96268a32372d50b69dbf907810db0448fe99e97875d2a979c"
+      sha256 "ab25832953cd2135c2bec070329f36fd20bfcef86f7efa3402058ec0cc751356"
     end
   end
 
