@@ -5,27 +5,27 @@
 class Second < Formula
   desc "Second companion command-line client"
   homepage "https://2nd.thedevdavid.com"
-  version "1.22.4"
+  version "1.22.5"
 
   on_macos do
     on_arm do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-darwin-arm64.tar.gz"
-      sha256 "841af358163a7be92b7d27d561d925a6e6bee9bc1fde7c07fcd6f65b96198349"
+      sha256 "cdc0d9f4c98e92464d88bc91f1f3f9c21919a7132131f1cf69115ff4bb3cce84"
     end
     on_intel do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-darwin-x64.tar.gz"
-      sha256 "68aec3521f46e229f5e4f78d1140c2d68e8f650146c26a168c9909528b9a5f73"
+      sha256 "a9cf65d1e26788ad5fe721b2e6d7fda44d790f410d4c4b43fc6008fa31bc0730"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-linux-arm64.tar.gz"
-      sha256 "b09b1ebcb2be04157a65ba48398bb371f696af5f820cd7b778a5c1ac13ce036f"
+      sha256 "78961dadf06afe36ea466637d5a8c523f66befa1c0c6555ee7ca534a97804ea7"
     end
     on_intel do
       url "https://github.com/thedevdavid/homebrew-tap/releases/download/second-v#{version}/second-bun-linux-x64.tar.gz"
-      sha256 "229ec5f6ad0cc8eee2ce6502cceb8e200a2b06231d6251735573334224c791a5"
+      sha256 "d3b52b88b7cfe5f56de58bb72904255c0f84c2164754eb719882b54838908f99"
     end
   end
 
